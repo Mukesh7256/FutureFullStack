@@ -1,5 +1,44 @@
 *{
-    margin: 0;
+    margin: 10px;
     padding: 0;
     font-family: 'poppins' sans-serif;
+}
+
+h1{
+    font-weight: 700;
+    text-decoration: underline blue wavy;
+    letter-spacing: -2px;
+}
+p{
+    font-weight: 400;
+    text-decoration: underline red dashed ;
+    text-transform: capitalize;
+    font-style: oblique;
+    text-align: justify;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+a:link, a:visited{
+    text-decoration: none;
+    color: blue;
+}
+ .ach:active{
+    color: red;
+}
+.question{
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+/* li:nth-child(2n){
+    color: blue;
+    font-weight: 700;
+    text-transform: uppercase;
+} */
+
+.list li {
+   color: blue;
+    font-weight: 700;
+    text-transform: uppercase;
+    list-style: none; 
 }
